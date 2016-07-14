@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Simulador4</string>
+    <string name="hint_buscar">Buscar nombre</string>
+    <string name="carga_fragmento">Fragmento Principal</string>
+    <string name="valor_minimo">Mínimo</string>
+    <string name="valor_maximo">Máximo</string>
+
+    <!-- Opciones de menu -->
+    <string name="optCarga">Carga automatica</string>
+    <string name="action_agregar">Agregar</string>
+    <string name="optBuscar">Buscar</string>
+    <string name="action_borrar_todos">Borrar todos</string>
+    <string name="opc2">Opción 2</string>
+    <string name="tb_titulo">Mi Simulación</string>
+    <string name="action_agregar_fragment">Agregar en fragmento</string>
+    <string name="action_borrar_todos_fragment">Borrar en fragmento</string>
+</resources>

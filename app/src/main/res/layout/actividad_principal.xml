@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vista.ActividadPrincipal">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/mi_toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/botonCargaFragmento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="16sp"
+            android:text="@string/carga_fragmento"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textoPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/botonCargaFragmento"
+            android:hint="@string/hint_buscar"
+            android:textSize="25sp" />
+
+        <FrameLayout
+            android:id="@+id/contenedorFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/textoPrincipal"
+            android:layout_marginTop="20dp">
+
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>
